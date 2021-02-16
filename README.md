@@ -17,7 +17,7 @@
 
 ## Overview
 
-The sensu-check-open-ports is a [Sensu Check][6] that determines open port count per user
+check-open-ports is a [Sensu Check][6] that determines open port count per user
 
 ## Files
 
@@ -27,8 +27,8 @@ The sensu-check-open-ports is a [Sensu Check][6] that determines open port count
 Sensu Check for Open Ports
 
 Usage:
-  sensu-check-open-ports [flags]
-  sensu-check-open-ports [command]
+  check-open-ports [flags]
+  check-open-ports [command]
 
 Available Commands:
   help        Help about any command
@@ -40,7 +40,7 @@ Flags:
   -u, --user string   User to query for open port count (default "sensu")
   -w, --warn int      Warning threshold - count of open ports required for warning state
 
-Use "sensu-check-open-ports [command] --help" for more information about a command.
+Use "check-open-ports [command] --help" for more information about a command.
 
 ```
 ## Configuration
