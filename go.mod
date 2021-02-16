@@ -1,4 +1,4 @@
-module github.com/ValkyrieOps/sensu-check-open-ports
+module github.com/ValkyrieOps/check-open-ports
 
 go 1.14
 
