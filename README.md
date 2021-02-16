@@ -64,10 +64,10 @@ If you're using an earlier version of sensuctl, you can find the asset on the [B
 type: CheckConfig
 api_version: core/v2
 metadata:
-  name: sensu-check-open-ports
+  name: check-open-ports
   namespace: default
 spec:
-  command: sensu-check-open-ports --example example_arg
+  command: check-open-ports --example example_arg
   subscriptions:
   - system
   runtime_assets:
