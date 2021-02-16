@@ -21,6 +21,8 @@ check-open-ports is a [Sensu Check][6] that determines open port count per user
 
 ## Files
 
+bin/check-open-ports
+
 ## Usage examples
 
 ```
